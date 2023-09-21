@@ -26,7 +26,7 @@ def trace_of_matrix(matrix):
 
 def main():
     try:
-        n = int(input("e"))
+        n = int(input())
         
         matrix1 = input_matrix(n)
         matrix2 = input_matrix(n)
