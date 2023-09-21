@@ -1,4 +1,4 @@
-def check_characters(str1, str2):
+def check(str1, str2):
     str3 = set(str2)
 
     for char in str1:
@@ -6,10 +6,10 @@ def check_characters(str1, str2):
             return "No"
     
     return "Yes"
-T = int(input())
-for _ in range(T):
-    input_strings = input().split()
-    str1 = input_strings[0]
-    str2 = input_strings[1]
-    result = check_characters(str1, str2)
+t = int(input())
+for _ in range():
+    input = input().split()
+    str1 = input[0]
+    str2 = input[1]
+    result = check(str1, str2)
     print(result)
